@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Moto Italika 150",
+    "price": "$25,000",
+    "image": "https://via.placeholder.com/300",
+    "highlighted": true
+  },
+  {
+    "id": 2,
+    "name": "Moto Italika 200",
+    "price": "$32,000",
+    "image": "https://via.placeholder.com/300",
+    "highlighted": false
+  }
+]
