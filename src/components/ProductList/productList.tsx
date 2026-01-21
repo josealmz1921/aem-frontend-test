@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { getProducts } from '../../services/products.api';
 import { type Product } from '../../types/Product';
 import ProductCard from '../ProductCard';
+import '../../clientlibs/product-list/product-list.css';
 
 const ProductList = () => {
     const [products, setProducts] = useState<Product[]>([]);
@@ -25,18 +26,20 @@ const ProductList = () => {
         return <p>Cargando productos...</p>;
     }
 
-    if(!filteredProducts.length) {
+    if (!filteredProducts.length) {
         return <p>No hay productos disponibles.</p>
     }
 
     return (
         <section className="product-list">
-            <button onClick={() => setShowHighlighted(!showHighlighted)}>
+            <button className='button-filter' onClick={() => setShowHighlighted(!showHighlighted)}>
                 {showHighlighted ? 'Mostrar todos' : 'Solo destacados'}
             </button>
-            {filteredProducts.map((product) => (
-                <ProductCard key={product.id} product={product} />
-            ))}
+            <div className='product-list-items'>
+                {filteredProducts.map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                ))}
+            </div>
         </section>
     );
 };

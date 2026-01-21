@@ -1,16 +1,51 @@
 [
-  {
-    "id": 1,
-    "name": "Moto Italika 150",
-    "price": "$25,000",
-    "image": "https://via.placeholder.com/300",
-    "highlighted": true
-  },
-  {
-    "id": 2,
-    "name": "Moto Italika 200",
-    "price": "$32,000",
-    "image": "https://via.placeholder.com/300",
-    "highlighted": false
-  }
+    {
+        "id": 1,
+        "name": "Moto Italika 150",
+        "price": "$25,000",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": true
+    },
+    {
+        "id": 2,
+        "name": "Moto Italika 200",
+        "price": "$32,000",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": false
+    },
+    {
+        "id": 3,
+        "name": "Moto Italika 125",
+        "price": "$22,000",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": false
+    },
+    {
+        "id": 4,
+        "name": "Moto Italika 250",
+        "price": "$38,000",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": true
+    },
+    {
+        "id": 5,
+        "name": "Moto Italika 300",
+        "price": "$45,000",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": false
+    },
+    {
+        "id": 6,
+        "name": "Moto Italika AT110",
+        "price": "$19,500",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": false
+    },
+    {
+        "id": 7,
+        "name": "Moto Italika DM200",
+        "price": "$34,500",
+        "image": "https://via.placeholder.com/300",
+        "highlighted": true
+    }
 ]
