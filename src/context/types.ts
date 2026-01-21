@@ -7,3 +7,8 @@ export interface CartItem extends Product {
 export interface CartState {
   items: CartItem[];
 }
+
+export type CartProviderProps = {
+  children: React.ReactNode;
+  initialState?: CartState;
+};

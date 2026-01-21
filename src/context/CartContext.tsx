@@ -1,6 +1,6 @@
 import { createContext, useContext, useReducer } from 'react';
 import { type Product } from '../types/Product';
-import type { CartState } from './types';
+import type { CartState, CartProviderProps } from './types';
 
 type Action = { type: 'ADD_ITEM' | 'REMOVE_ITEM'; payload: Product };
 
@@ -50,8 +50,8 @@ export const reducer = (state: CartState, action: Action): CartState => {
     }
 };
 
-export const CartProvider = ({ children }: { children: React.ReactNode }) => {
-    const [state, dispatch] = useReducer(reducer, { items: [] });
+export const CartProvider = ({ children, initialState }: CartProviderProps) => {
+    const [state, dispatch] = useReducer(reducer,initialState ?? { items: [] });
 
     return (
         <CartContext.Provider value={{ state, dispatch }}>
