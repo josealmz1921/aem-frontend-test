@@ -25,6 +25,10 @@ const ProductList = () => {
         return <p>Cargando productos...</p>;
     }
 
+    if(!filteredProducts.length) {
+        return <p>No hay productos disponibles.</p>
+    }
+
     return (
         <section className="product-list">
             <button onClick={() => setShowHighlighted(!showHighlighted)}>
