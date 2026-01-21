@@ -1,12 +1,16 @@
 import ProductList from './components/ProductList';
 import Layout from './components/Layout';
+import Summary from './components/Summary';
 
 function App() {
 
   return (
     <Layout>
       <h1>AEM Product Showcase</h1>
-      <ProductList />
+      <div>
+        <ProductList />
+        <Summary />
+      </div>
     </Layout>
   )
 }

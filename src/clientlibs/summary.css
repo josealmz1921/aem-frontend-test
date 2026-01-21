@@ -1,0 +1,25 @@
+.summary {
+    margin-top: 2rem;
+}
+
+.summaryNoItems {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 300px;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.summary-item button{
+    background: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
