@@ -13,11 +13,19 @@ Tecnologías utilizadas
  - HTML5 / CSS3 
  - Git
 
-Cómo ejecutar el proyecto
-**npm install
-npm run dev**
+
+**Instalar y correr el proyecto**
+
+Este proyecto requiere **Node 22**.
+
+**Instalar dependencias**
+npm install
+
+**Correr el proyecto*
+npm run dev
 
 El proyecto estará disponible en http://localhost:5173.
+
 Arquitectura del proyecto
 
     src/
