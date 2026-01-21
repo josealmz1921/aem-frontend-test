@@ -1,6 +1,6 @@
 import { useCart } from "../../context/CartContext";
 import { type Product } from "../../types/Product";
-import '../../clientlibs/summary.css';
+import '../../clientlibs/summary/summary.css';
 
 const Summary = () => {
 

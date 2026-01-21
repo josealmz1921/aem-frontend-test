@@ -1,5 +1,4 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import { describe, it, expect } from 'vitest';
 
 import { CartProvider, useCart } from '../CartContext';
