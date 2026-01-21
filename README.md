@@ -75,6 +75,9 @@ El enfoque fue demostrar conocimiento conceptual y práctico de AEM desde fronte
  - Integración real con APIs externas.
  - Implementación en AEM as a Cloud Service.
 
+## Testing
+Se incluyeron pruebas unitarias utilizando Vitest y React Testing Library para validar el render de componentes, estados de carga y reglas de negocio.
+
 **Autor**
 **José Almanzan**
 **Frontend / React Tech Lead**
